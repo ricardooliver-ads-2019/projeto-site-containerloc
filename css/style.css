@@ -29,7 +29,6 @@ body{
 .w33{
     float: left;
     width: 33.3%;
-    height: 230px;
 
 }
 
@@ -103,9 +102,10 @@ nav.nav_mobile{
 /* --- ---- footer ---- --- */
 
 footer.rodape{
+    position: absolute;
+    overflow: hidden;
     width: 100%;
     background-color: rgba(103, 116, 116, 0.39);
-    position: absolute;
     bottom: 0;
     color: #CCC;
     padding-top: 10px;
@@ -117,7 +117,7 @@ footer.rodape h2{
 
 footer.rodape .container_rodape{
     overflow: hidden;
-    height: 230px;
+    
 }
 
 footer.rodape .w33{
@@ -190,8 +190,6 @@ footer.rodape .w33{
 }
 
 
-
-
 /*---------------------------------------------------------------*/
 /* --- ---- Responsividade ---- --- */
 
@@ -240,6 +238,22 @@ footer.rodape .w33{
 
     nav.nav_menu {
         display: none;
+    }
+
+    footer.rodape{
+        position: relative;
+    }
+
+    .w33{
+        width: 100%;
+        
+    }
+
+    .box_localizacao img{
+        padding: 10px;
+        width: 80%;
+        
+    
     }
 
 
