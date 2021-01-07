@@ -104,6 +104,10 @@ nav.nav_mobile{
         text-align: center;  
         
     }
+
+    header.cabeca .linha{
+        display: none;
+    }
     
 
     .nav_mobile{
