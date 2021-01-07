@@ -1,9 +1,201 @@
+/* --- ---- Reset-site ---- --- */
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+.center{
+    max-width: 1100px;
+    padding: 0 2%;
+    margin: 0 auto;
+}
+
+.clear{
+    clear: both;
 }
 
 body{
-    background-color: aqua;
+    background-color:  rgb(42, 42, 42);
+}
+
+/*---------------------------------------------------------------*/
+/* --- ---- style-site ---- --- */
+
+header.cabeca{
+
+}
+
+header.cabeca .container_menu {
+    overflow: hidden;
+    margin: auto;
+    padding: 15px;
+    font-size: 20px;
+    
+
+}
+
+.container_menu  .logo{
+    float: left;
+    height: 30px;
+    
+}
+
+.container_menu  .nav_menu, .nav_mobile{
+    float: right;
+ 
+}
+
+.nav_menu ul, .nav_mobile ul{
+    list-style: none;
+ 
+}
+
+.nav_menu li, .nav_mobile li{
+    overflow: hidden;
+    position: relative;
+    float: left;
+    margin-left: 15px;
+    padding: 10px 0;
+}
+
+.nav_menu a, .nav_mobile a{
+    font-style: italic;
+    text-decoration: none;
+    color: #CCC;
+}
+
+
+
+
+.logo :hover {
+    animation: anilogo 0.3s;
+
+}
+
+.nav_menu li:hover {
+    animation: anilogo 0.3s;
+
+}
+
+.nav_mobile li:hover{
+    animation: anilogo 0.3s;
+
+}
+nav.nav_mobile{
+    display: none;
+
+}
+
+nav.nav_mobile h2{
+    position: absolute;
+    cursor: pointer;
+    color: rgb(226, 34, 9);
+    top: 23px;
+    right: 25px;
+
+}
+
+/*---------------------------------------------------------------*/
+/* --- ---- Responsividade ---- --- */
+
+@media screen and (max-width:780px){
+
+    .container_menu  .logo{
+        float: none;
+        margin-right: auto;
+        text-align: center;
+        margin-bottom: 20px;       
+        
+    }
+    
+
+    .container_menu  .nav_menu,
+    .nav_mobile{
+        padding: 10px 0;
+        width: 100%;
+        float: none;
+        text-align: center;   
+     
+    }
+
+    
+
+
+
+    .nav_menu li,
+    .nav_mobile li{
+        float: none;
+        margin: 0 10px;
+        margin-bottom: 5px;
+        padding: 10px;
+        background-color: rgb(50, 54, 54);
+        border-bottom: 1px solid rgb(226, 34, 9);
+
+    }
+
+    .nav_mobile a{
+        font-size: 20px;
+    }
+
+    nav.nav_mobile{
+        display: inline-block;
+
+    }
+
+    nav.nav_menu {
+        display: none;
+    }
+
+
+
+
+
+
+}
+
+
+
+
+/*---------------------------------------------------------------*/
+/* --- ---- Animações ---- --- */
+
+@keyframes aniMenu{
+    0%{
+        transform: scale(0.1);
+        opacity: 0;
+        
+        
+    }
+    60% {
+        transform: scale(1.2);
+        opacity: 1;
+        
+    
+    }
+
+    100%{
+        transform: scale(1);
+        
+    }
+}
+
+@keyframes anilogo{
+    0%{
+        transform: translateY(0px);
+        
+        
+    }
+
+    50%{
+        transform: translateY(5px);
+    }
+    
+
+    100%{
+        transform: translateY(-5px);
+    }
 }
