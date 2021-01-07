@@ -23,11 +23,19 @@ body{
 
 .clear{
     clear: both;
+    
 }
 
+.w33{
+    float: left;
+    width: 33.3%;
+    height: 150px;
 
-/*-------------------------------------------------------------*/
+}
+
 /* --- ---- style-site ---- --- */
+/*-------------------------------------------------------------*/
+/* --- ---- header ---- --- */
 
 header.cabeca{
 
@@ -90,6 +98,43 @@ nav.nav_mobile h2{ /* --- ---- icone-bars ---- --- */
 nav.nav_mobile{
     display: none;
 
+}
+
+/* --- ---- footer ---- --- */
+
+footer.rodape{
+    width: 100%;
+}
+
+footer.rodape .container_rodape{
+    overflow: hidden;
+    background-color: aqua;
+}
+
+footer.rodape .w33{
+    background-color: blueviolet;
+}
+
+.box_endereco{
+    text-align: center;
+    background-color: brown;
+
+}
+
+.box_endereco p{
+    text-align: left;
+    background-color: brown;
+
+}
+
+.box_localizacao{
+    background-color: brown;
+    
+}
+
+.box_conect{
+    background-color: brown;
+    
 }
 
 
@@ -171,8 +216,6 @@ nav.nav_mobile{
 }
 
 
-
-
 @keyframes anilogo{
     0%{
         transform: translateY(0px);
@@ -188,4 +231,10 @@ nav.nav_mobile{
     100%{
         transform: translateY(-5px);
     }
+}
+
+footer.rodape{
+    position: absolute;
+    background-color: #CCC;
+    bottom: 0;
 }
