@@ -23,11 +23,18 @@ body{
 
 .clear{
     clear: both;
+    
 }
 
+.w33{
+    float: left;
+    width: 33.3%;
 
-/*-------------------------------------------------------------*/
+}
+
 /* --- ---- style-site ---- --- */
+/*-------------------------------------------------------------*/
+/* --- ---- header ---- --- */
 
 header.cabeca{
 
@@ -92,6 +99,96 @@ nav.nav_mobile{
 
 }
 
+/* --- ---- footer ---- --- */
+
+footer.rodape{
+    position: absolute;
+    overflow: hidden;
+    width: 100%;
+    background-color: rgba(103, 116, 116, 0.39);
+    bottom: 0;
+    color: #CCC;
+    padding-top: 10px;
+}
+
+footer.rodape h2{
+    font-size: 20px;
+}
+
+footer.rodape .container_rodape{
+    overflow: hidden;
+    
+}
+
+footer.rodape .w33{
+    
+}
+
+.box_endereco{
+    text-align: center;
+
+}
+
+.box_endereco p{
+    text-align: left;
+    padding: 10px;
+
+}
+
+.box_localizacao{
+    text-align: center;
+    
+}
+
+.box_localizacao img{
+    padding: 10px;
+    width: 250px;
+    height: 180px;
+
+}
+
+.box_conect{
+    text-align: center;
+    
+}
+
+.box_conect .box_icones{
+    padding: 10px;
+    text-align: center;
+    
+}
+
+.box_conect a{
+    overflow: hidden;
+    position: relative;
+    margin-bottom: 10px;
+    padding: 5px 0;
+    height: 50px;
+    display: inline-block;
+    width: 200px;
+    text-decoration: none;
+    background-color: rgba(41, 43, 44, 0.822);
+}
+
+.incones{
+    font-size: 30px;
+    color: #CCC;
+    
+    
+}
+
+.icone{
+    position: absolute;
+    margin-right: auto;
+    padding: 5px 7px;
+    left: 50%;
+    top: 50%;
+    border: 1.8px dotted #CCC;
+    border-radius: 50%;
+    transform: translate(-50%, -50%);
+    background-color: black;
+}
+
 
 /*---------------------------------------------------------------*/
 /* --- ---- Responsividade ---- --- */
@@ -143,6 +240,22 @@ nav.nav_mobile{
         display: none;
     }
 
+    footer.rodape{
+        position: relative;
+    }
+
+    .w33{
+        width: 100%;
+        
+    }
+
+    .box_localizacao img{
+        padding: 10px;
+        width: 80%;
+        
+    
+    }
+
 
 }
 
@@ -171,8 +284,6 @@ nav.nav_mobile{
 }
 
 
-
-
 @keyframes anilogo{
     0%{
         transform: translateY(0px);
@@ -189,3 +300,4 @@ nav.nav_mobile{
         transform: translateY(-5px);
     }
 }
+
