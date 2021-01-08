@@ -138,6 +138,14 @@ footer.rodape .w33{
 
 }
 
+.box_endereco address.end{
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%;
+    
+}
+
 .box_endereco p{
     text-align: left;
     padding: 10px;
@@ -153,7 +161,7 @@ footer.rodape .w33{
 .box_localizacao img{
     padding: 10px;
     width: 250px;
-    height: 180px;
+    height: 140px;
 
 }
 
@@ -163,11 +171,13 @@ footer.rodape .w33{
 }
 
 .box_conect .box_icones{
-    padding: 10px;
-    
+
 }
 
 .box_conect a{
+    margin-top: 3px;
+    margin-bottom: 10px;
+    padding-top: 0;
     overflow: hidden;
     position: relative;
     height: 50px;
@@ -200,6 +210,13 @@ footer.rodape .w33{
     font-size: 27px;
     
 }
+
+.box_conect p{
+    padding: 5px;
+    font-size: 13px;
+
+}
+
 /*---------------------------------------------------------------*/
 /* --- ---- Responsividade ---- --- */
 
@@ -255,9 +272,15 @@ footer.rodape .w33{
         
     }
 
+    .box_endereco address.end{
+        
+        max-width: 70%;
+        
+    }
+
     .box_localizacao img{
         padding: 10px;
-        width: 80%;
+        width: 70%;
         
     
     }
