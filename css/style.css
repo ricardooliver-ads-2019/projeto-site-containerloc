@@ -36,10 +36,6 @@ body{
 /*-------------------------------------------------------------*/
 /* --- ---- header ---- --- */
 
-header.cabeca{
-    
-
-}
 
 header.cabeca .container_menu {
     overflow: hidden;
@@ -47,7 +43,6 @@ header.cabeca .container_menu {
     padding: 15px;
     font-size: 20px;
     
-
 }
 
 .container_menu  .logo{
@@ -85,7 +80,6 @@ header.cabeca .container_menu {
 }
 
 
-
 nav.nav_mobile h2{ /* --- ---- icone-bars ---- --- */
     position: absolute;
     cursor: pointer;
@@ -100,13 +94,8 @@ nav.nav_mobile{
 
 }
 
-.ixi{
-    background-color: aqua;
-    
-}
 
 /* --- ---- footer ---- --- */
-
 
 
 footer.rodape{
@@ -129,9 +118,11 @@ footer.rodape .container_rodape{
     
 }
 
-footer.rodape .w33{
-    
+.iconlaranjas{
+    color: rgb(226, 34, 9);
+    font-size: 20px;
 }
+
 
 .box_endereco{
     text-align: center;
@@ -170,14 +161,10 @@ footer.rodape .w33{
     
 }
 
-.box_conect .box_icones{
-}
-
 .box_conect a{
     margin-top: 3px;
     margin-bottom: 10px;
     padding-top: 0;
-    overflow: hidden;
     position: relative;
     height: 50px;
     display: inline-block;
@@ -186,14 +173,21 @@ footer.rodape .w33{
     
 }
 
-.incones{
+.icones{
     font-size: 25px;
     color: #CCC;
     
     
 }
 
-.icone{
+.box_conect p{
+    margin-bottom: 10px;
+
+}
+
+
+
+.div_icone{
     position: absolute;
     margin-right: auto;
     padding: 5px 7px;
@@ -221,6 +215,7 @@ footer.rodape .w33{
 
 @media screen and (max-width:780px){
 
+    /* --- ----  ---- --- */
     .container_menu  .logo{
         float: none;
         margin-right: auto;
@@ -265,6 +260,8 @@ footer.rodape .w33{
     nav.nav_menu {
         display: none;
     }
+
+    /* --- ---- footer ---- --- */
 
     .w33{
         width: 100%;
