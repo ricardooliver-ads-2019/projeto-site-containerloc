@@ -37,6 +37,7 @@ body{
 /* --- ---- header ---- --- */
 
 header.cabeca{
+    
 
 }
 
@@ -99,17 +100,25 @@ nav.nav_mobile{
 
 }
 
+.ixi{
+    background-color: aqua;
+    
+}
+
 /* --- ---- footer ---- --- */
 
+
+
 footer.rodape{
-    position: absolute;
+    position: relative;
+    top: 450px;
     overflow: hidden;
     width: 100%;
-    background-color: rgba(103, 116, 116, 0.39);
-    bottom: 0;
+    background-color: rgba(103, 116, 116);
     color: #CCC;
     padding-top: 10px;
 }
+    
 
 footer.rodape h2{
     font-size: 18px;
@@ -186,6 +195,11 @@ footer.rodape .w33{
     transform: translate(-50%, -50%);
     
 }
+
+.iconwhat{
+    font-size: 27px;
+    
+}
 /*---------------------------------------------------------------*/
 /* --- ---- Responsividade ---- --- */
 
@@ -236,10 +250,6 @@ footer.rodape .w33{
         display: none;
     }
 
-    footer.rodape{
-        position: relative;
-    }
-
     .w33{
         width: 100%;
         
@@ -251,6 +261,8 @@ footer.rodape .w33{
         
     
     }
+
+
 
 
 }
