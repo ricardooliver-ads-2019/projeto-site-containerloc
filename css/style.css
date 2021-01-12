@@ -100,7 +100,7 @@ section.prim_section .container_section_prim{
     position: relative;
     margin-top: 10px;
     text-align: center;
-    
+
 }
 
 .titulo{
@@ -168,7 +168,7 @@ section.prim_section .logo_section{
     
 }
 
-.imag_boneco{
+.imagBoneco{
     width: 90%;
     max-width: 180px;
     max-height: 236px;
