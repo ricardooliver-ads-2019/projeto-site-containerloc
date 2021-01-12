@@ -189,7 +189,7 @@ section.prim_section .logo_section{
 
 
 footer.rodape{
-    margin-top: 300px;
+    top: 300px;
     position: relative;
     overflow: hidden;
     width: 100%;
