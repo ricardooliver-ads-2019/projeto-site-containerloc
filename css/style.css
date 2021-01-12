@@ -174,7 +174,10 @@ section.prim_section .logo_section{
     margin-right: auto;
     width: 100%;
     height: 300px;
-    background-color: chartreuse;
+    background-image: url("/img/bonequinho.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    
     margin-bottom: 100px;
     
 }
