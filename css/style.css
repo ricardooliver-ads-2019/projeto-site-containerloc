@@ -159,6 +159,7 @@ section.prim_section .logo_section{
     margin-right: auto;
     position: relative;
     width: 100%;
+    
 
 }
 .cartao{
@@ -168,12 +169,11 @@ section.prim_section .logo_section{
 
 .box_boneco{
     overflow: hidden;
-    position: relative;
     margin-left: auto;
     margin-right: auto;
     width: 70%;
     background-color: chartreuse;
-
+    
 }
 
 .imag_boneco{
