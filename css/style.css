@@ -94,13 +94,100 @@ nav.nav_mobile{
 
 }
 
+/* --- ---- Primeira Section ---- --- */
+section.prim_section .container_section_prim{
+    overflow: hidden;
+    position: relative;
+
+    margin-top: 10px;
+    text-align: center;
+
+}
+
+.titulo{
+    display: none;
+    width:210px;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 0px;
+    position: relative;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    color: #CCCCCC;
+    border: 0;
+    
+    box-shadow: -1px 2px 1px rgb(226, 34, 9);
+    
+ 
+}
+
+.titulo h1{
+    padding: 5px;
+    font-style: italic;
+    font-weight: lighter;
+}
+
+.container_section_prim h2{
+    font-size: 22px;
+    font-weight: lighter;
+    font-style: italic;
+    
+    margin: 10px;
+    color: #CCCCCC;
+    text-shadow: -1px 2px 2px rgb(248, 65, 41);
+}
+
+section.prim_section .logo_section{
+    top: 10px;
+    position: relative;
+    text-align: center;
+    
+
+}
+.logo_section img{
+    width: 200px;
+
+    
+
+}
+
+.box_imag{
+    overflow: hidden;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    width: 100%;
+
+}
+.cartao{
+    margin-left: 15px;
+    width: 100%;
+}
+
+.box_boneco{
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    top: -80px;
+    width: 70%;
+
+}
+
+.imag_boneco{
+    width: 30%;
+    max-width: 180px;
+    max-height: 236px;
+    min-width: 110px;
+}
+
 
 /* --- ---- footer ---- --- */
 
 
 footer.rodape{
     position: relative;
-    top: 450px;
     overflow: hidden;
     width: 100%;
     background-color: rgba(103, 116, 116);
@@ -208,6 +295,7 @@ footer.rodape .container_rodape{
     padding: 5px;
     font-size: 13px;
 
+
 }
 
 /*---------------------------------------------------------------*/
@@ -260,6 +348,27 @@ footer.rodape .container_rodape{
     nav.nav_menu {
         display: none;
     }
+    /* --- ---- Primeira Section ---- --- */
+    .titulo{
+        display: block;
+        
+        
+        
+    }
+    section.prim_section .logo_section{
+        display: none;
+    }
+
+    .box_boneco{
+        position: relative;
+        margin-left: auto;
+        margin-right: auto;
+        top: -30px;
+        width: 90%;
+    
+    }
+
+
 
     /* --- ---- footer ---- --- */
 
