@@ -101,7 +101,7 @@ section.prim_section .container_section_prim{
 
     margin-top: 10px;
     text-align: center;
-
+    background-color: cadetblue;
 }
 
 .titulo{
@@ -184,6 +184,7 @@ section.prim_section .logo_section{
     max-width: 180px;
     max-height: 236px;
     min-width: 110px;
+    min-height: 156px;
 }
 
 
