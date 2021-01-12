@@ -168,10 +168,11 @@ section.prim_section .logo_section{
 }
 
 .box_boneco{
-    overflow: hidden;
+    overflow: auto;
     margin-left: auto;
     margin-right: auto;
     width: 70%;
+    height: 50%;
     background-color: chartreuse;
     
 }
