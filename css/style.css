@@ -230,9 +230,9 @@ footer.rodape .container_rodape{
     
 }
 
-.box_localizacao img{
+.box_localizacao iframe{
     padding: 10px;
-    width: 250px;
+    width: 260px;
     height: 140px;
 
 }
@@ -378,9 +378,10 @@ footer.rodape .container_rodape{
         
     }
 
-    .box_localizacao img{
+    .box_localizacao iframe{
         padding: 10px;
-        width: 70%;
+        width: 90%;
+        height: 180px;
         
     
     }
