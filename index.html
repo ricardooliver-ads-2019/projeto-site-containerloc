@@ -12,7 +12,20 @@
     <link rel = "preconnect" href = "https://fonts.gstatic.com">
     <link href = "https://fonts.googleapis.com/css2? family = Roboto: wght @ 300 & display = swap" rel = "stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/js/all.min.js" integrity="sha512-F5QTlBqZlvuBEs9LQPqc1iZv2UMxcVXezbHzomzS6Df4MZMClge/8+gXrKw2fl5ysdk4rWjR0vKS7NNkfymaBQ==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/js/all.min.js" integrity="sha512-F5QTlBqZlvuBEs9LQPqc1iZv2UMxcVXezbHzomzS6Df4MZMClge/8+gXrKw2fl5ysdk4rWjR0vKS7NNkfymaBQ==" crossorigin="anonymous">
+        /* --- ---- home-site ---- --- */
+
+        console.log("olha")
+        console.log("olha")
+        console.log("olha")
+        alert("OLA");
+
+        /* --- ---- section carousel_containers ---- --- */
+        document.querySelector(".items").addEventListener("wheel", Event =>{
+        console.log(Event)
+        })
+    
+    </script>
 </head>
 <body>
     <main>
@@ -92,6 +105,33 @@
             </div><!-- ---- container_section_prim ---- -->
         </section><!-- ---- prim_section ---- -->
 
+        <section id="carousel_containers">
+
+            <div id="container_section_containers" class="center">
+                <div class="line-text">
+                    <div class="box_estilo">
+                        <div class="line" style="height: 2px;"></div>
+                        <h2>Conheça os nossos containeres</h2>
+                    </div>
+                </div><!-- ---- line-text ---- -->
+
+                <div class="box_carousel_img">
+                    <div class="items-wrapper">
+    
+                        <div class="items">
+                            <div class="item"><img src="img/img01.jpg" alt=""></div>
+                            <div class="item"><img src="img/img02.jpg" alt=""></div>
+                            <div class="item"><img src="img/img03.jpg" alt=""></div>
+                            <div class="item"><img src="img/img04.jpg" alt=""></div>
+                        </div>
+    
+                    </div>
+                </div>
+
+
+            </div><!-- ---- container_section_containers ---- -->
+
+        </section><!-- ---- Section carousel_containers ---- -->
 
         <footer class="rodape">
             <div class="container_rodape center">
