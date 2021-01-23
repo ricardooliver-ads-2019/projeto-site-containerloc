@@ -235,9 +235,11 @@ section#carousel_containers{
 
 }
 
+
+
 .items {
     display: flex;
-    overflow-x: auto;
+    overflow-x:auto;
     scroll-snap-type: x mandatory;
     -webkit-overflow-scrolling: touch;
     scroll-behavior: smooth;
@@ -246,7 +248,10 @@ section#carousel_containers{
     border-bottom-left-radius: 70px;
     border-bottom-right-radius: 70px;
     box-shadow: 0px 8px 50px 5px rgba(253, 251, 251, 0.603);
+    
 }
+    
+
 
 .item{
     flex:none;
@@ -255,8 +260,7 @@ section#carousel_containers{
     scroll-snap-align: start;
     pointer-events: none;
     object-fit: cover;
-
-
+    
 }
 
 .items-wrapper img{
@@ -265,7 +269,125 @@ section#carousel_containers{
     /*object-fit: cover;*/
     
 }
+/* --- ---- buttons carousel ---- --- */
 
+.button_slide-nav{
+    position: relative;
+    width: 50%;
+    height: 50px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.button_slide-nav button{
+    background-color: rgba(42, 43, 43, 0);
+    position: relative;
+    font-size: 28px;
+    width: 80px; 
+    height: 40px;
+    border-radius: 50px; 
+    cursor: pointer;
+    
+}
+
+.passa{
+    display: inline-block;
+    position: absolute;
+    left:50%;
+    transform: translateX(-50%);
+    top: 10%;
+    color: rgb(255, 255, 255);
+    
+    
+    
+}
+
+
+button#prox{
+ margin: auto;
+ margin-left: 10px;
+    
+}
+
+button#prox:hover .passa{
+    transform: translateX(3px);
+    transition: transform 1s;
+
+}
+
+button#prox:active .passa{
+    font-size: 35px;
+    transform: rotateZ(360);
+    transition: transform 3s;
+    color: rgb(248, 65, 41);
+    
+
+}
+
+
+button#ant{
+    margin: auto;
+    margin-right: 10px;
+}
+
+button#ant:hover .passa{
+    
+    transform: translateX(-35px);
+    transition: transform 1s;
+
+}
+
+button#ant:active .passa{
+    font-size: 35px;
+    transform: rotateZ(360);
+    transition: transform 3s;
+    color: rgb(248, 65, 41);
+    
+
+}
+
+button#ant, button#prox:focus{
+    outline-style: none;
+  }
+
+
+
+
+/* --- ---- scrollbar carousel ---- --- */
+
+.items::-webkit-scrollbar { 
+    display: none;
+}
+
+/*
+
+.items::-webkit-scrollbar {
+    width: 12px;
+    background-color: #F5F5F5;
+    
+  }
+  
+  
+ .items::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    
+    -webkit-box-shadow: inset 0 0 6px #000;
+    background-color: #fff;
+  }
+ 
+  .items::-webkit-scrollbar-thumb:hover {
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 6px #000;
+    background-color: #d6170a;
+  }
+  
+  .items::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+    border-radius: 10px;
+    background-color: #F5F5F5;
+  }
+
+*/
 
 
 /* --- ---- footer ---- --- */
@@ -469,7 +591,7 @@ footer.rodape .container_rodape{
     }
 
     .items-wrapper{
-        width: 85vw;
+        width: 75vw;
         
     }
 
@@ -509,11 +631,22 @@ footer.rodape .container_rodape{
 @media screen and (max-width:500px){
 
     .item{
+        
         height: 200px;
         
     
     }
     
+    /* --- ---- buttons carousel ---- --- */
+
+    .button_slide-nav{
+        
+        width: 100%;
+        
+    }
+
+    
+
     
 }
 
