@@ -386,9 +386,19 @@ button#ant, button#prox:focus{
     border-radius: 10px;
     background-color: #F5F5F5;
   }
-
 */
 
+
+/* ######## SECTION-SERRALHERIA ######## */
+
+section#serralheria #imgSerra{
+    height: 150px;
+    background-color: aliceblue;
+    background-image: url(".img/serralheria-foto-topo.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
 
 /* --- ---- footer ---- --- */
 
