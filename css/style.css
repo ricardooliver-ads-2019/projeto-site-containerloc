@@ -402,7 +402,7 @@ section#serralheria #imgSerra{
 
     text-align: center;
     background-color: aliceblue;
-    background-image: url("/serralheria-foto.jpg");
+    
     background-attachment: fixed;
     background-size: cover;
     background-position: center;
@@ -490,7 +490,7 @@ div.box-itens h3{
 #link-serralheria{
     display: inline-block;
     text-decoration: none;
-    padding: 5px;
+    padding: 7px;
     margin: 20px;
     margin-top: 35px;
     color: rgb(248, 65, 41);
