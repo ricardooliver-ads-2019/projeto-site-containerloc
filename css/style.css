@@ -412,7 +412,7 @@ section#serralheria #imgSerra{
 #imgSerra div#fund{
     width: 100%;
     height: 100%;
-    background-color: #2e2d2d98;
+    background-color: #2e2d2d60;
     
 }
 
@@ -714,34 +714,14 @@ footer.rodape .container_rodape{
     }
     /* ######## SECTION-SERRALHERIA ######## */
 
-    section#serralheria{
-        margin-bottom: 20px;
-    }
-
     section#serralheria #imgSerra{
-        position: relative;
-        width: 100%;
-        text-align: center;
-        background-color: aliceblue;
-        background-image: url("/img/serralheria-foto.jpg");
         background-attachment: fixed;
-        background-size: cover;
-        background-position: center;
-        background-repeat: no-repeat;
         
     }
 
-    #imgSerra div#fund{
-        width: 100%;
-        height: 100%;
-        background-color: #2e2d2d60;
-        
-    }
 
     #msgSerralheria{
-        padding: 10px 0px;
-        font-size: 18px;
-        color: #ccccccc2;
+        
         text-align: left;
     }
 
