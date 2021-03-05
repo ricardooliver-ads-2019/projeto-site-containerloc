@@ -401,6 +401,7 @@ section#serralheria #imgSerra{
     width: 100%;
     text-align: center;
     background-color: aliceblue;
+
     background-attachment: fixed;
     background-size: cover;
     background-position: center;
