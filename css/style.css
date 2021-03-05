@@ -399,10 +399,8 @@ section#serralheria #imgSerra{
     overflow: hidden;
     position: relative;
     width: 100%;
-
     text-align: center;
     background-color: aliceblue;
-    background-image: url("serralheria-foto.jpg");
     background-attachment: fixed;
     background-size: cover;
     background-position: center;
