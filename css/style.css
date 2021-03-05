@@ -402,7 +402,7 @@ section#serralheria #imgSerra{
 
     text-align: center;
     background-color: aliceblue;
-    background-image: url("/img/serralheria-foto.jpg");
+    background-image: url("img/serralheria-foto.jpg");
     background-attachment: fixed;
     background-size: cover;
     background-position: center;
