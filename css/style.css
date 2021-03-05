@@ -402,7 +402,7 @@ section#serralheria #imgSerra{
 
     text-align: center;
     background-color: aliceblue;
-    background-image: url("/img/serralheria/serralheria-foto.jpg");
+    background-image: url("/serralheria-foto.jpg");
     background-attachment: fixed;
     background-size: cover;
     background-position: center;
@@ -448,6 +448,7 @@ div.box-itens h3{
 .desc-item .img-serra-itens{
     border-radius: 50px 0px;
     width: 200px;
+    height: 200px;
 }
 
 .desc-item p{
@@ -491,11 +492,12 @@ div.box-itens h3{
     text-decoration: none;
     padding: 5px;
     margin: 20px;
+    margin-top: 35px;
     color: rgb(248, 65, 41);
-    border-radius: 5px;
+    border-radius: 50px;
     border: solid 1px white;
     box-shadow: 0px 0px 5px white;
-    width: 200px;
+    width: 250px;
     background-color: rgba(26, 23, 23, 0.521);
 }
 
