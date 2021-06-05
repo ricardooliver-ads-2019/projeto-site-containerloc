@@ -22,3 +22,7 @@ document.querySelector('button#prox').addEventListener('click', function(event){
   /*
   * Nav buttons end
   */
+
+/*
+* Nav buttons proximo
+*/

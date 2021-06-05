@@ -8,7 +8,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
     <meta name="keywords" content="Containers, venda e locação de containers, serralheria, Portões">
     <!-- META TAGS PARA SEO-->
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/styleProdutosServicos.css">
     <link rel = "preconnect" href = "https://fonts.gstatic.com">
     <link href = "https://fonts.googleapis.com/css2? family = Roboto: wght @ 300 & display = swap" rel = "stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
@@ -26,11 +26,11 @@
                 <nav class="nav_menu">
                     <ul class="box_menu">
                         <li>
-                            <a style="text-shadow: -1px 1px 1px  rgb(252, 50, 0);" href="index.html">Home</a><!-- ---- marcando a pagina atual ---- -->
+                            <a href="index.html">Home</a><!-- ---- marcando a pagina atual ---- -->
                         </li>
 
                         <li>
-                            <a href="produtosServicos.html">Produtos & Serviços</a>
+                            <a style="text-shadow: -1px 1px 1px  rgb(252, 50, 0);" href="produtosServicos.html">Produtos & Serviços</a>
                         </li>
 
                         <li>
@@ -51,11 +51,11 @@
                     <ul class="menu_nav">
     
                         <li>
-                            <a style="text-shadow: -1px 1px 1px  rgb(252, 50, 0);" href="index.html">Home</a>
+                            <a href="index.html">Home</a>
                         </li>
     
                         <li>
-                            <a href="produtosServicos.html">Produtos & Serviços</a>
+                            <a style="text-shadow: -1px 1px 1px  rgb(252, 50, 0);" href="#">Produtos & Serviços</a>
                         </li>
     
                         <li>
@@ -76,17 +76,31 @@
 
         <section class="prim_section">
             <div class="container_section_prim center">
+                
+
                 <div class="titulo">
                     <h1>CONTAINER/LOC</h1>
+
                 </div><!-- ---- titulo ---- -->
 
-                <div class="logo_section"><img src="img/loginho.png" alt=""></div>
+                <h2>Serralheria <br>Produtos e Serviços</h2>
 
-                <h2>Empresa especializada em locação e venda de containeres</h2>
 
-                <div class="box_imag">
-                 <img class="cartao" src="img/ultima-removebg.png" alt="">   
-                </div><!-- ---- box_imag ---- -->
+                <!-- ---- SLIDE---- -->
+
+                <div class="contencao">
+                    <div id="slide"></div>
+                    <div class="anterior" onclick="anterior()"> < </div>
+                    <div class="proximo" onclick="proximo()"> > </div>
+                </div>
+
+                <div id="boxBotoes">
+                <ul id="botoes">
+                   
+                </ul></div>
+
+                <!-- ---- SLIDE---- -->
+                
 
                 <div class="box_boneco">
                     <img class="imagBoneco" src="img/bonekinho.png" alt="">
@@ -95,46 +109,7 @@
             </div><!-- ---- container_section_prim ---- -->
         </section><!-- ---- prim_section ---- -->
 
-        <section id="carousel_containers">
-
-            <div id="container_section_containers" class="center">
-                <div class="line-text">
-                    <div class="box_estilo">
-                        <div class="line" style="height: 2px;"></div>
-                        <h2>Conheça os nossos containeres</h2>
-                    </div>
-                </div><!-- ---- line-text ---- -->
-
-                <div class="box_carousel_img">
-                    <div class="items-wrapper">
     
-                        <div class="items">
-                            <div class="item"><img src="img/containerAmarelo3x1.5.png" alt=""></div>
-                            <div class="item"><img src="img/containerVermelho3x2.png" alt=""></div>
-                            <div class="item"><img src="img/containerBanheiro1x1.png" alt=""></div>
-                            <div class="item"><img src="img/containerBanheiroLaranja.jpg" alt=""></div>
-                            <div class="item"><img src="img/containerEcritorio.jpg" alt=""></div>
-                            <div class="item"><img src="img/container-escritorio.jpg" alt=""></div>
-                            <div class="item"><img src="img/container-escritorio-6x240.jpg" alt=""></div>
-                            <div class="item"><img src="img/escritorio-banheiro-simples.png" alt=""></div>
-                        </div>
-    
-                    </div>
-
-                    <div class="button_slide-nav">
-                        <button id="ant">
-                            <i class="passa far fa-hand-point-left"></i>
-                        </button>
-                        <button id="prox">
-                            <i class="passa far fa-hand-point-right"></i>
-                        </button>
-                    </div>
-                </div>
-
-
-            </div><!-- ---- container_section_containers ---- -->
-
-        </section><!-- ---- Section carousel_containers ---- -->
 
         <!-- ######## SECTION-SERRALHERIA ######## -->
         <section id="serralheria">
@@ -145,7 +120,7 @@
                         <div class="line-text">
                             <div class="box_estilo">
                                 <div class="line" style="height: 2px;"></div>
-                                <h2>Serralheria Containerloc</h2>
+                                <h2>Produtos e Serviços</h2>
                             </div>
                             <p id="msgSerralheria">Nossa empresa também atua no segmento de serralheria, fabricamos e reformamos portões, portas, janelas, grades em geral e outras estruturas em aço, metal e alumínio. Contamos com uma equipe de proficionais capacitados para melhor realização dos seus serviços.</p>
                         </div><!-- ---- line-text ---- -->
@@ -190,8 +165,49 @@
                                         </div>
                                     </div>
                                 </div>
+
+                                
+                                    <div class="box-itens">
+                                        <h3>Portões</h3>
+                                        <div class="desc-item">
+                                            <img class="img-serra-itens" src="img/serralheria/p1.jpg" alt="">
+                                            <p>Apartir de <span>R$: 1.300,00</span></p>
+                                            <div class="serra-orcamento">
+                                                <span> Faça o seu orçamento</span>
+                                                <a href=""><i class="fab fa-whatsapp iconlaranjas"></i></a>
+                                                <a href=""><i class="icone-address fas fa-phone-volume iconlaranjas"></i></a>
+                                            </div>
+                                        </div>
+                                    </div>
+    
+                                    <div class="box-itens">
+                                        <h3>Churrasqueiras</h3>
+                                        <div class="desc-item">
+                                            <img class="img-serra-itens" src="img/serralheria/churrasqueira1.jpg" alt="">
+                                            <p>Apartir de <span>R$: 80,00</span></p>
+                                            <div class="serra-orcamento">
+                                                <span> Faça o seu orçamento</span>
+                                                <a href=""><i class="fab fa-whatsapp iconlaranjas"></i></a>
+                                                <a href=""><i class="icone-address fas fa-phone-volume iconlaranjas"></i></a>
+                                            </div>
+                                        </div>
+                                    </div>
+    
+                                    <div class="box-itens">
+                                        <h3>Outros</h3>
+                                        <div class="desc-item">
+                                            <img class="img-serra-itens" src="img/serralheria/mesa-serralheria.png" alt="">
+                                            <p>Apartir de <span>R$: 50,00</span></p>
+                                            <div class="serra-orcamento">
+                                                <span> Faça o seu orçamento</span>
+                                                <a href=""><i class="fab fa-whatsapp iconlaranjas"></i></a>
+                                                <a href=""><i class="icone-address fas fa-phone-volume iconlaranjas"></i></a>
+                                            </div>
+                                        </div>
+                                    </div>
+
                             </div>
-                            <a id="link-serralheria" href="#">Saiba mais </a>
+
                         </div>
                     </div>
                 </div>
@@ -208,7 +224,7 @@
                         <h2>Endereço</h2>
                         <address class="end">
                             <p>
-                                <strong>Rua:</strong> AV. Candeias, Nº: 4325.<br>
+                               <strong>Rua:</strong> AV. Candeias, Nº: 4325.<br>
                                <strong>Bairro:</strong> Jardim Monte Alegre.<br>
                                <strong>Cidade:</strong> Ariquemes-RO. <br>
                                <strong>Cep:</strong> 76.871.247. <br>
@@ -276,6 +292,7 @@
         </footer><!-- ---- footer_rodape ---- -->
 
         <script src="js/script.js"></script>
+        <script src="js/scriptSlide.js"></script>
 
         <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
         <script>
