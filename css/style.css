@@ -816,3 +816,104 @@ footer.rodape .container_rodape{
     }
 }
 
+
+/*---------------------------- Pagina Produtos e Serviços -----------------------------------*/
+
+
+
+/* --- ---- SLIDE ---- --- */
+.contencao{
+    position: relative;
+    margin: 20px auto 10px auto;
+    width: 80%;
+    height: 250px;
+    max-width: 500px;
+    max-height: 250px;
+    background: #000;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    box-shadow: 0px 8px 50px 5px rgba(253, 251, 251, 0.603);
+}
+
+#slide{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: 100vw;
+    transition: 1s;
+
+}
+
+.anterior, .proximo{
+    position: relative;
+    margin-top: -150px;
+    width: 30px;
+    height: 80px;
+    color: #fff;
+    font-size: 25px;
+    text-align: center;
+    line-height: 80px;
+    cursor: pointer;
+    background-color: rgba(44, 62, 80, .4)
+
+}
+
+.anterior{
+    float: left;
+}
+
+.proximo{
+    float: right;
+}
+
+
+.anterior:hover{
+    background-color: rgba(44, 62, 80, .9) !important;
+}
+
+.proximo:hover{
+    background-color: rgba(44, 62, 80, .9) !important;
+
+}
+
+#boxBotoes{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+    margin-bottom: 50px;
+    
+}
+
+ul#botoes {
+    list-style: none;
+    width: 150px;
+    display: flex;
+    justify-content: center;
+}
+
+ul#botoes li{
+    background: #797b7e;
+    width: 10px;
+    height: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+    border-radius: 100%;
+    cursor: pointer;
+}
+
+ul#botoes li.selected{
+    background-color: rgb(226, 34, 9);
+
+}
+
+
+/* --- ---- Responsividade Pagina produtos e serviços---- --- */
+
+
+
+
+/*---------------------------------------------------------------*/
