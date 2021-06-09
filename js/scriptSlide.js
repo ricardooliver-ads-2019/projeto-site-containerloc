@@ -10,16 +10,16 @@ window.load = start(n);
 function start(n) {
     var allBgs =4;
     botoes(n, allBgs);
-    document.getElementById('slide').style.backgroundImage = "url('../img/serralheria/produtosServicos/"+n+".jpg')";
+    document.getElementById('slide').style.backgroundImage = "url('img/serralheria/produtosServicos/"+n+".jpg')";
      setInterval(() =>{
         n++   
         if (n <= 4) {
-            document.getElementById('slide').style.backgroundImage = "url('../img/serralheria/produtosServicos/"+n+".jpg')";
+            document.getElementById('slide').style.backgroundImage = "url('img/serralheria/produtosServicos/"+n+".jpg')";
         //console.log(n)
         }else{
             n = 1
             //console.log("volto a ser 1")
-            document.getElementById('slide').style.backgroundImage = "url('../img/serralheria/produtosServicos/"+n+".jpg')";
+            document.getElementById('slide').style.backgroundImage = "url('img/serralheria/produtosServicos/"+n+".jpg')";
         }
         //console.log(n)
         botoes(n, allBgs);
@@ -30,7 +30,7 @@ function start(n) {
 
 function slid(n) {
     var allBgs =4;
-    document.getElementById('slide').style.backgroundImage = "url('../img/serralheria/produtosServicos/"+n+".jpg')";
+    document.getElementById('slide').style.backgroundImage = "url('img/serralheria/produtosServicos/"+n+".jpg')";
     botoes(n, allBgs);
 }
 
