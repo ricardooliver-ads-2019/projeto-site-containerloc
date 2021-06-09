@@ -3,7 +3,6 @@
 
 
 //window.load = slid(1);
-var time =10000;
 var numImgSlide = 1;
 var n = 1;
 window.load = start(n);
@@ -16,15 +15,15 @@ function start(n) {
         n++   
         if (n <= 4) {
             document.getElementById('slide').style.backgroundImage = "url('../img/serralheria/produtosServicos/"+n+".jpg')";
-        console.log(n)
+        //console.log(n)
         }else{
             n = 1
-            console.log("volto a ser 1")
+            //console.log("volto a ser 1")
             document.getElementById('slide').style.backgroundImage = "url('../img/serralheria/produtosServicos/"+n+".jpg')";
         }
-        console.log(n)
+        //console.log(n)
         botoes(n, allBgs);
-        console.log("-----")
+        //console.log("-----")
     }, 5000)
     
 }

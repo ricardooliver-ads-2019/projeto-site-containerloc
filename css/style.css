@@ -410,6 +410,7 @@ section#serralheria #imgSerra{
 }
 
 #imgSerra div#fund{
+    padding: 15px 0;
     width: 100%;
     height: 100%;
     background-color: #2e2d2d60;
@@ -430,7 +431,7 @@ section#serralheria #imgSerra{
 
 div.box-itens{
     margin: 10px;
-    padding: 0 15px;
+    padding: 10px 15px;
     border-radius: 0px 50px 20px 20px;
     background-color: rgba(26, 23, 23, 0.521);
     border: solid 1px white;
@@ -842,42 +843,16 @@ footer.rodape .container_rodape{
     width: 100%;
     height: 100%;
     background-size: cover;
-    background-position: 100vw;
+    background-position: center;
     transition: 1s;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
 
 }
 
-.anterior, .proximo{
-    position: relative;
-    margin-top: -150px;
-    width: 30px;
-    height: 80px;
-    color: #fff;
-    font-size: 25px;
-    text-align: center;
-    line-height: 80px;
-    cursor: pointer;
-    background-color: rgba(44, 62, 80, .4)
 
-}
-
-.anterior{
-    float: left;
-}
-
-.proximo{
-    float: right;
-}
-
-
-.anterior:hover{
-    background-color: rgba(44, 62, 80, .9) !important;
-}
-
-.proximo:hover{
-    background-color: rgba(44, 62, 80, .9) !important;
-
-}
 
 #boxBotoes{
     width: 100%;
@@ -913,7 +888,17 @@ ul#botoes li.selected{
 
 /* --- ---- Responsividade Pagina produtos e serviços---- --- */
 
+@media screen and (max-width:550px){
 
+    .contencao{
+        width: 250px;
+        height: 125px;
+    }
+
+    
+
+    
+}
 
 
 /*---------------------------------------------------------------*/
