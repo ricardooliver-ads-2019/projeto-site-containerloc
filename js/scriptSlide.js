@@ -5,23 +5,26 @@
 //window.load = slid(1);
 var numImgSlide = 1;
 var n = 1;
+var img =""
 window.load = start(n);
 
 function start(n) {
     var allBgs =4;
     botoes(n, allBgs);
-    document.getElementById('slide').style.backgroundImage = "url('img/serralheria/produtosServicos/"+n+".jpg')";
      setInterval(() =>{
-        n++   
+        img  = document.getElementById("idImgSlide"+n+"");
+        img.classList.remove("selectImgSlide")
+        n++
         if (n <= 4) {
-            document.getElementById('slide').style.backgroundImage = "url('img/serralheria/produtosServicos/"+n+".jpg')";
-        //console.log(n)
+            img  = document.getElementById("idImgSlide"+n+"");
+            img.classList.add("selectImgSlide")
+        //console.log(img)
         }else{
             n = 1
-            //console.log("volto a ser 1")
-            document.getElementById('slide').style.backgroundImage = "url('img/serralheria/produtosServicos/"+n+".jpg')";
+            img  = document.getElementById("idImgSlide"+n+"");
+            img.classList.add("selectImgSlide")
         }
-        //console.log(n)
+        //console.log(img)
         botoes(n, allBgs);
         //console.log("-----")
     }, 5000)

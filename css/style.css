@@ -440,6 +440,8 @@ div.box-itens{
 }
 
 div.box-itens h3{
+    margin-right: 50px;
+    margin-left: 50px;
     margin-bottom: 10px;
     color: rgb(248, 65, 41);
 
@@ -822,35 +824,70 @@ footer.rodape .container_rodape{
 
 
 
-/* --- ---- SLIDE ---- --- */
-.contencao{
-    position: relative;
-    margin: 20px auto 10px auto;
-    width: 80%;
-    height: 250px;
-    max-width: 500px;
-    max-height: 250px;
-    background: #000;
-    border-top-left-radius: 20px;
-    border-top-right-radius: 20px;
-    border-bottom-left-radius: 20px;
-    border-bottom-right-radius: 20px;
-    box-shadow: 0px 8px 50px 5px rgba(253, 251, 251, 0.603);
-}
+    /* --- ---- SLIDE ---- --- */
 
-#slide{
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    background-size: cover;
-    background-position: center;
-    transition: 1s;
-    border-top-left-radius: 20px;
-    border-top-right-radius: 20px;
-    border-bottom-left-radius: 20px;
-    border-bottom-right-radius: 20px;
+    #containerSlide{
+        position: relative;
+        margin: 20px auto 10px auto;
+        width: 80%;
+        height: 250px;
+        max-width: 500px;
+        max-height: 250px;
+        background: #000;
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px;
+        border-bottom-left-radius: 20px;
+        border-bottom-right-radius: 20px;
+        box-shadow: 0px 8px 50px 5px rgba(253, 251, 251, 0.603);
+    }
 
-}
+    #boxImags{
+        position: relative;
+        width: 100%;
+        height: 100%;
+        top: 0px;
+        background-color: lightgreen;
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px;
+        border-bottom-left-radius: 20px;
+        border-bottom-right-radius: 20px;
+    }
+
+    .imgSlide{
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        width: 100%;
+        height: 100%;
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px;
+        border-bottom-left-radius: 20px;
+        border-bottom-right-radius: 20px;
+        
+
+    }
+
+
+
+    #idImgSlide1{
+
+    }
+
+    #idImgSlide2{
+        
+    }
+
+    #idImgSlide3{
+        
+    }
+
+    #idImgSlide4{
+        
+    }
+
+    .selectImgSlide{
+        z-index: 1;
+    }
 
 
 
