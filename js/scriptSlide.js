@@ -32,8 +32,10 @@ function start(n) {
 }
 
 function slid(n) {
+    img.classList.remove("selectImgSlide")
     var allBgs =4;
-    document.getElementById('slide').style.backgroundImage = "url('img/serralheria/produtosServicos/"+n+".jpg')";
+    img  = document.getElementById("idImgSlide"+n+"");
+    img.classList.add("selectImgSlide")
     botoes(n, allBgs);
 }
 
